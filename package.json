@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s03p4m60vo",
+  "description": "https://scrimba.com/s03p4m60vo/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
