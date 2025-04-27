@@ -191,4 +191,6 @@ function toggleMode(){
         inactiveBtn.classList.remove("bg-stone-100", "border-black")
         
         toggleModeImg.src = "icon-sun.svg"}
+    
+    displayData(jsonData)
 }
