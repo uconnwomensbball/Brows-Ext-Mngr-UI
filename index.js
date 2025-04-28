@@ -36,7 +36,7 @@ allBtn.classList.add("bg-slate-900")
 function displayData(data){
     
     const mappedData = data.map(function(extension){ 
-      return `<div class = "flex-col justify-between items-center mx-2 my-2 px-4 rounded-3xl w-74 border p-3 ${darkMode? "bg-slate-900": "bg-stone-100 border-black"}">
+      return `<div class = "flex flex-col justify-between mx-2 my-2 px-4 rounded-3xl w-74 border p-3 ${darkMode? "bg-slate-900": "bg-stone-100 border-black"}">
               <div class = "flex mt-3 mb-9">
                 <img src = "${extension.logo}" class = "mr-4 w-20 h-20"/>
                 <div class = "flex-col">
